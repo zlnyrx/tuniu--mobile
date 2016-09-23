@@ -1,0 +1,748 @@
+/*reseat begin*/
+body{
+	margin:0;
+}
+ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+a{
+	color:#000;
+	text-decoration:none;
+}
+a{
+	-webkit-tap-highlight-color:transparent;
+}
+img{
+	border: none;
+	vertical-align: text-bottom;
+}
+/*reseat end*/
+
+/*public begin*/
+.clearfix:after{
+	content:"";
+	display:block;
+	clear:both;
+}
+.ml16{
+	margin-left:16px;
+}
+
+html{
+	height:100%;
+	overflow:hidden;
+}
+body{
+	height:100%;
+	overflow:auto;
+}
+/*public end*/
+
+/*head begin*/
+.head{
+	width:100%;
+	height:1.21875rem;
+	background-color:#f9f9f9;
+}
+.head .tuniu{
+	width:1.609375rem;
+	height:1.21875rem;
+	background:url(../img/tuniu.jpg) no-repeat;
+	background-size:100%;
+	float:left;
+}
+.head .serch-box{
+	width:7rem;
+	float:left;
+	margin-top:0.1875rem;
+	position:relative;
+}
+.serch-box .input{
+	width:100%;
+	height:0.828125rem;
+	background-color:#e5e5e5;
+	border-radius:0.046875rem;
+}
+.serch-box .place{
+	width:1.640625rem;
+	height:0.453125rem;
+	border-right:0.03125rem solid #d1d1d1;
+	font-size:0.375rem;
+	color:#000;
+	position:absolute;
+	left:0.296875rem;
+	top:0.1875rem;
+}
+.serch-box .place:after{
+	content: "";
+	width:0.21875rem;
+	height:0.125rem;
+	float: right;
+	margin-top:0.1875rem;
+	margin-right:0.265625rem;
+	background:url(../img/sel-ico.jpg) no-repeat;
+	background-size:100%;
+}
+.serch-box .serch-text{
+	position:absolute;
+	left:2.34375rem;
+	top:0.1875rem;
+	font-size:0.375rem;
+	color:#9b9b9b;
+}
+.serch-box .serch-text:before{
+	content: "";
+	width:0.40625rem;
+	height:0.453125rem;
+	float: left;
+	margin-right:0.171875rem;
+	background:url(../img/ser-ico.jpg) no-repeat;
+	background-size:100%;
+}
+.head .type{
+	width:1.390625rem;
+	height:1.21875rem;
+	background:url(../img/type.jpg) no-repeat;
+	background-size:100%;
+	float:left;
+}
+/*head end*/
+
+/*content begin*/
+.content{
+	width:100%;
+	background-color:#f0f0f0;
+}
+.content .banner-box{
+	width:100%;
+	height:2.8125rem;
+	border-top:0.03125rem solid #d5ddd9;
+}
+.banner-box .banner{
+	width:100%;
+	height:2.8125rem;
+	background:url(../img/banner.jpg) no-repeat;
+	background-size:100%;
+	display:block;
+}
+/*nav begin*/
+.content .nav{
+	width:100%;
+	height:6.5rem;
+	border-bottom:0.03125rem solid #dedede;
+	background-color:#fff;
+}
+.nav .topnav{
+	width:9.46875rem;
+	height:1.65625rem;
+	margin:0.28125rem auto;
+}
+.topnav .leave,.topnav .nation,.topnav .rim{
+	width:2.984375rem;
+	height:1.375rem;
+	float:left;
+}
+.topnav .leave{
+	background:url(../img/leave.jpg) no-repeat;
+	background-size:100%;
+}
+.topnav .nation{
+	background:url(../img/nation.jpg) no-repeat;
+	background-size:100%;
+}
+.topnav .rim{
+	background:url(../img/rim.jpg) no-repeat;
+	background-size:100%;
+}
+.nav .subnav{
+	width:100%;
+	height:4.28125rem;
+	position:relative;
+}
+.subnav li{
+	width:2rem;
+	height:2.140625rem;
+	float:left;
+}
+.subnav a{
+	display:block;
+	width:2rem;
+	height:1.375rem;
+}
+.subnav .team{
+	background:url(../img/team.jpg) no-repeat;
+	background-size:100%;
+}
+.subnav .self{
+	background:url(../img/self.jpg) no-repeat;
+	background-size:100%;
+}
+.subnav .liner{
+	background:url(../img/liner.jpg) no-repeat;
+	background-size:100%;
+}
+.subnav .drive{
+	background:url(../img/drive.jpg) no-repeat;
+	background-size:100%;
+}
+.subnav .ticket{
+	background:url(../img/ticket.jpg) no-repeat;
+	background-size:100%;
+}
+.subnav .visa{
+	background:url(../img/visa.jpg) no-repeat;
+	background-size:100%;
+}
+.subnav .tail{
+	background:url(../img/tail.jpg) no-repeat;
+	background-size:100%;
+}
+.subnav .plain{
+	background:url(../img/plain.jpg) no-repeat;
+	background-size:100%;
+}
+.subnav .train{
+	background:url(../img/train.jpg) no-repeat;
+	background-size:100%;
+}
+.subnav .best{
+	background:url(../img/best.jpg) no-repeat;
+	background-size:100%;
+}
+.subnav div{
+	font-size:0.3125rem;
+	text-align:center;
+	font-weight:bold;
+}
+.subnav .page{
+	position:absolute;
+	left:4.515625rem;
+	top:4.203125rem;
+	width:0.96875rem;
+	height:0.171875rem;
+}
+.page a{
+	display:inline-block;
+	width:0.1875rem;
+	height:0.171875rem;
+}
+.page .point1{
+	background:url(../img/point1.jpg) no-repeat;
+	background-size:100%;
+}
+.page .point2,.page .point3{
+	background:url(../img/point2.jpg) no-repeat;
+	background-size:100%;
+}
+/*nav end*/
+/*ad begin*/
+.content .ad{
+	width:100%;
+	height:1.078125rem;
+	background-color:#fff;
+}
+.ad .hot-ico{
+	width:1.140625rem;
+	height:1.078125rem;
+	background:url(../img/hot-ico.jpg) no-repeat;
+	background-size:100%;
+	float:left;
+}
+.ad .text{
+	width:6.25rem;
+	height:0.578125rem;
+	border-right:2px solid #d8d8d8;
+	font-size:0.34375rem;
+	line-height:0.578125rem;
+	float:left;
+	margin-top:0.25rem;
+}
+.ad .hot{
+	width:2.328125rem;
+	height:1.078125rem;
+	background:url(../img/hot.jpg) no-repeat;
+	background-size:100%;
+	float:right;
+}
+/*ad end*/
+/*serve begin*/
+.content .serve{
+	width:100%;
+	height:2.0625rem;
+}
+.serve li{
+	width:1.546875rem;
+	height:1.5rem;
+	margin-top:0.28125rem;
+	margin-left:0.375rem;
+	float:left;
+}
+.serve li div{
+	width:1.546875rem;
+	height:1.5rem;
+}
+.serve li .serve1{
+	background:url(../img/serve1.jpg) no-repeat;
+	background-size:100%;
+}
+.serve li .serve2{
+	background:url(../img/serve2.jpg) no-repeat;
+	background-size:100%;
+}
+.serve li .serve3{
+	background:url(../img/serve3.jpg) no-repeat;
+	background-size:100%;
+}
+.serve li .serve4{
+	background:url(../img/serve4.jpg) no-repeat;
+	background-size:100%;
+}
+.serve li .serve5{
+	background:url(../img/serve5.jpg) no-repeat;
+	background-size:100%;
+}
+/*serve end*/
+/*phion begin*/
+.content .phion{
+	width:100%;
+	height:2.515625rem;
+}
+.phion .travel{
+	width:5.21875rem;
+	height:2.515625rem;
+	background:url(../img/phion.jpg) no-repeat;
+	background-size:100%;
+	float:left;
+	position:relative;
+}
+.travel .text{
+	position:absolute;
+	left:2.03125rem;
+	top:1.6875rem;
+	width:3.1875rem;
+	height:0.46875rem;
+}
+
+.text .time{
+	height:0.453125rem;
+	font-size:0.21875rem;
+}
+.time a{
+	display:inline-block;
+	width:0.34375rem;
+	height:0.34375rem;
+	background-color:#e5e5e5;
+	font-size:0.21875rem;
+	border-radius:0.078125rem;
+	padding-left:0.0625rem;
+	padding-top:0.0625rem;
+}
+.phion .recom{
+	width:4.78125rem;
+	height:2.515625rem;
+	float:left
+}
+.recom li{
+	width:2.359375rem;
+	height:2.515625rem;
+	margin-left:0.03125rem;
+	float:left;
+}
+.recom .on{
+	background:url(../img/on.jpg) no-repeat;
+	background-size:100%;
+}
+.recom .buying{
+	background:url(../img/buying.jpg) no-repeat;
+	background-size:100%;
+}
+/*phion end*/
+/*pop begin*/
+.content .pop{
+	width:100%;
+	height:8.125rem;
+	margin-top:0.28125rem;
+}
+.pop .pop-tit{
+	width:100%;
+	height:1.25rem;
+	background:url(../img/pop-tit.jpg) no-repeat;
+	background-size:100%;
+}
+.pop .pop-cont{
+	width:100%;
+	height:6.609375rem;
+}
+.pop-cont li{
+	width:2.46875rem;
+	height:3.265625rem;
+	margin-top:0.03125rem;
+	margin-left:0.03125rem;
+	float:left;
+}
+.pop-cont .kids{
+	background:url(../img/kids.jpg) no-repeat;
+	background-size:100%;
+}
+.pop-cont .line{
+	background:url(../img/line.jpg) no-repeat;
+	background-size:100%;
+}
+.pop-cont .bang{
+	background:url(../img/bang.jpg) no-repeat;
+	background-size:100%;
+}
+.pop-cont .twov{
+	background:url(../img/twov.jpg) no-repeat;
+	background-size:100%;
+}
+.pop-cont .all{
+	background:url(../img/all.jpg) no-repeat;
+	background-size:100%;
+}
+.pop-cont .play{
+	background:url(../img/play.jpg) no-repeat;
+	background-size:100%;
+}
+.pop-cont .out{
+	background:url(../img/out.jpg) no-repeat;
+	background-size:100%;
+}
+.pop-cont .honny{
+	background:url(../img/honny.jpg) no-repeat;
+	background-size:100%;
+}
+/*pop end*/
+/*find begin*/
+.content .find{
+	width:100%;
+	height:6.28125rem;
+}
+.find .find-tit{
+	width:100%;
+	height:1.21875rem;
+	background:url(../img/find-tit.jpg) no-repeat;
+	background-size:100%;
+}
+.find .find-cont{
+	width:100%;
+	height:3.53125rem;
+	margin-top:0.03125rem;
+	background-color:#fff;
+}
+.find-cont li{
+	width:2.09375rem;
+	height:2.984375rem;
+	margin-left:0.265625rem;
+	margin-top:0.265625rem;
+	float:left;
+}
+.find-cont li:nth-of-type(1){
+	margin-left:0.40625rem;
+}
+.find-cont .patner{
+	background:url(../img/find1.jpg) no-repeat;
+	background-size:100%;
+}
+.find-cont .welfare{
+	background:url(../img/find2.jpg) no-repeat;
+	background-size:100%;
+}
+.find-cont .tour{
+	background:url(../img/find3.jpg) no-repeat;
+	background-size:100%;
+}
+.find-cont .com{
+	background:url(../img/find4.jpg) no-repeat;
+	background-size:100%;
+}
+.find .find-bot{
+	width:100%;
+	height:1.515625rem;
+	background:url(../img/find5.jpg) no-repeat;
+	background-size:100%;
+}
+/*find end*/
+/*menu begin*/
+.content .menu{
+	width:100%;
+	height:3.265625rem;
+}
+.menu .menu-list{
+	width:100%;
+	height:1.25rem;
+	background-color:#fff;
+}
+.menu-list li{
+	float:left;
+	width:2.5rem;
+	height:1.15625rem;
+	line-height:1.25rem;
+	font-size:0.40625rem;
+	font-weight:bold;
+	text-align:center;
+	border-bottom:0.09375rem solid #fff;
+}
+.menu-list li:nth-of-type(1){
+	color:#23cc77;
+	border-bottom:0.09375rem solid #23cc77;
+}
+.menu .submenu{
+	width:100%;
+	height:2.0rem;
+}
+.submenu .top{
+	width:2.46875rem;
+	height:1.0rem;
+	margin-bottom:0.03125rem;
+	margin-left:0.03125rem;
+	float:left;
+}
+.top .whole{
+	width:2.46875rem;
+	height:1.0rem;
+	background:url(../img/menu1.jpg) no-repeat;
+	background-size:100%;
+}
+.top .drive{
+	width:2.46875rem;
+	height:1.0rem;
+	background:url(../img/menu2.jpg) no-repeat;
+	background-size:100%;
+}
+.top .island{
+	width:2.46875rem;
+	height:1.0rem;
+	background:url(../img/menu3.jpg) no-repeat;
+	background-size:100%;
+}
+.top .free{
+	width:2.46875rem;
+	height:1.0rem;
+	background:url(../img/menu4.jpg) no-repeat;
+	background-size:100%;
+}
+.submenu .bottom{
+	width:2.46875rem;
+	height:0.96875rem;
+	margin-left:0.03125rem;
+	float:left;
+}
+.bottom .shop{
+	width:2.46875rem;
+	height:0.96875rem;
+	background:url(../img/menu5.jpg) no-repeat;
+	background-size:100%;
+}
+.bottom .film{
+	width:2.46875rem;
+	height:0.96875rem;
+	background:url(../img/menu6.jpg) no-repeat;
+	background-size:100%;
+}
+.bottom .exit{
+	width:2.46875rem;
+	height:0.96875rem;
+	background:url(../img/menu7.jpg) no-repeat;
+	background-size:100%;
+}
+.bottom .food{
+	width:2.46875rem;
+	height:0.96875rem;
+	background:url(../img/menu8.jpg) no-repeat;
+	background-size:100%;
+}
+/*menu end*/
+.content .zhuhai,.content .boracay{
+	width:100%;
+	height:6.359375rem;
+	background-color:#fff;
+}
+div[class="img"]{
+	width:10.0rem;
+	height:4.171875rem;
+}
+div[class="item"]{
+	font-size:0.40625rem;
+	margin-left:0.40625rem;
+	margin-top:0.578125rem;
+	font-weight:bold;
+}
+div[class="tips"]{
+	font-size:0.3125rem;
+	color:#999999;
+	margin-left:0.40625rem;
+	margin-top:0.3125rem;
+}
+.zhuhai .img{
+	background:url(../img/zhuhai.jpg) no-repeat;
+	background-size:100%;
+}
+
+.content .KL,.content .east{
+	width:100%;
+	height:6.453125rem;
+	background-color:#fff;
+	margin-top:0.28125rem;
+}
+.KL .img{
+	background:url(../img/KL.jpg) no-repeat;
+	background-size:100%;
+}
+.KL .tips:before,.east .tips:before{
+	content:"";
+	width:1.296875rem;
+	height:0.4375rem;
+	float: left;
+	margin-right:0.140625rem;
+	background:url(../img/niu.jpg) no-repeat;
+	background-size:100%;
+}
+.east .img{
+	background:url(../img/east.jpg) no-repeat;
+	background-size:100%;
+}
+.content .boracay{
+	margin-top:0.28125rem;
+}
+.boracay .img{
+	background:url(../img/boracay.jpg) no-repeat;
+	background-size:100%;
+}
+.content .bhy{
+	width:100%;
+	height:5.875rem;
+	background:url(../img/bhy.jpg) no-repeat;
+	background-size:100%;
+	margin-top:0.28125rem;
+}
+.content .fiji{
+	width:100%;
+	height:6.375rem;
+	background-color:#fff;
+	margin-top:0.265625rem;
+}
+.fiji .img{
+	background:url(../img/fiji.jpg) no-repeat;
+	background-size:100%;
+}
+.content .egypt{
+	width:100%;
+	height:6.390625rem;
+	background-color:#fff;
+	margin-top:0.265625rem;
+}
+.egypt .img{
+	background:url(../img/egypt.jpg) no-repeat;
+	background-size:100%;
+}
+.content .lucky{
+	width:100%;
+	height:6.359375rem;
+	background-color:#fff;
+	margin-top:0.265625rem;
+}
+.lucky .img{
+	background:url(../img/lucky.jpg) no-repeat;
+	background-size:100%;
+}
+.content .sanya{
+	width:100%;
+	height:6.46875rem;
+	background-color:#fff;
+	margin-top:0.265625rem;
+}
+.sanya .img{
+	background:url(../img/sanya.jpg) no-repeat;
+	background-size:100%;
+}
+.sanya .tips:before,.now .tips:before{
+	content:"";
+	width:1.515625rem;
+	height:0.4375rem;
+	float:left;
+	margin-right:0.140625rem;
+	background:url(../img/child.jpg) no-repeat;
+	background-size:100%;
+}
+.content .japan{
+	width:100%;
+	height:6.375rem;
+	background-color:#fff;
+	margin-top:0.265625rem;
+}
+.japan .img{
+	background:url(../img/japan.jpg) no-repeat;
+	background-size:100%;
+}
+.content .now{
+	width:100%;
+	height:6.46875rem;
+	background-color:#fff;
+	margin-top:0.265625rem;
+}
+.now .img{
+	background:url(../img/now.jpg) no-repeat;
+	background-size:100%;
+}
+/*content end*/
+/*foot begin*/
+.foot{
+	width:100%;
+	height:4.578125rem;
+	margin-top:0.3125rem;
+}
+.foot .list{
+	width:100%;
+	height:1.484375rem;
+}
+.list li{
+	width:1.96875rem;
+	height:1.484375rem;
+	margin-right:0.03125rem;
+	float:left;
+}
+.list .logon,.list .login,.list .app,.list .computer,.list .service{
+	width:1.96875rem;
+	height:1.484375rem;
+}
+.list .logon{
+	background:url(../img/logon.jpg) no-repeat;
+	background-size:100%;
+}
+.list .login{
+	background:url(../img/login.jpg) no-repeat;
+	background-size:100%;
+}
+.list .app{
+	background:url(../img/app.jpg) no-repeat;
+	background-size:100%;
+}
+.list .computer{
+	background:url(../img/computer.jpg) no-repeat;
+	background-size:100%;
+}
+.list .service{
+	background:url(../img/service.jpg) no-repeat;
+	background-size:100%;
+}
+.foot .icp{
+	margin-top:0.03125rem;
+	width:10.0rem;
+	height:3.03125rem;
+	background:url(../img/icp.jpg) no-repeat;
+	background-size:100%;
+	position:relative;
+}
+.icp .top-ico{
+	width:1.265625rem;
+	height:1.265625rem;
+	background:url(../img/top-ico.jpg) no-repeat;
+	background-size:100%;
+	position:absolute;
+	top:1.484375rem;
+	right:0.28125rem;
+}
+/*foot end*/
